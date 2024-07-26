@@ -1,12 +1,12 @@
-// Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  databaseURL: process.env.databaseURL,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId,
+const firebaseConfig = {
+  apiKey: "AIzaSyAeDub4lzMIfUxLlIHosFdKtT3T8n5hwT8",
+  authDomain: "d2r-chat.firebaseapp.com",
+  databaseURL: "https://d2r-chat-default-rtdb.firebaseio.com",
+  projectId: "d2r-chat",
+  storageBucket: "d2r-chat.appspot.com",
+  messagingSenderId: "206966326191",
+  appId: "1:206966326191:web:06472961563a70f099655a",
+  measurementId: "G-HXZ5MDL0T5"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
